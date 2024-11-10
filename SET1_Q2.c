@@ -20,11 +20,7 @@ int main()
         max=a;
         if(b>=c)
             min=c;
-<<<<<<< HEAD
-        else 
-=======
         else
->>>>>>> 140cc786aa3add55a5a85966b9c19a8b01e0d294
             min=b;
     }
     else if (b>c && b>a)
