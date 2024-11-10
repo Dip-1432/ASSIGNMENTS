@@ -1,10 +1,10 @@
 // 1. Wap in C that Will find the area and perimeter of
 // Square,Rectangle,Circle,Triangle.
 /*   ALGORITHMS
-     SQUARE:     AREA-SIDE*SIDE                    PERIMETER-4*SIDE
-     RECTANGLE:  AREA-LENGTH*BREADTH               PERIMETER-2*(LENGTH + BREADTH)
-     CIRCLE:     AREA-3.14*RADIUS*RADIUS           PERIMETER-2*3.14.RADIUS
-     TRIANGLE:   AREA-sqrt of [s(s−a)(s−b)(s−c)]​   PERIMETER-a+b+c  [a,b,c-sides...s=(a+b+c)/2]
+    SQUARE:     AREA-SIDE*SIDE                    PERIMETER-4*SIDE
+    RECTANGLE:  AREA-LENGTH*BREADTH               PERIMETER-2*(LENGTH + BREADTH)
+    CIRCLE:     AREA-3.14*RADIUS*RADIUS           PERIMETER-2*3.14.RADIUS
+    TRIANGLE:   AREA-sqrt of [s(s−a)(s−b)(s−c)]​   PERIMETER-a+b+c  [a,b,c-sides...s=(a+b+c)/2]
 */
 
 #include <stdio.h>
@@ -34,16 +34,16 @@ int main()
     ar2=length*breadth;
     printf("The area and perimeter of the rectangle are : %.2lf & %.2lf \n",ar2,pe2);
 
-//FOR TRIANGLE
+//FOR CIRCLE
     pe3=2*3.14*radius;
     ar3=3.14*radius*radius;
-    printf("The area and perimeter of the triangle are : %.2lf & %.2lf \n",ar3,pe3);
+    printf("The area and perimeter of the circle are : %.2lf & %.2lf \n",ar3,pe3);
 
-//FOR CIRCLE
+//FOR TRIANGLE
     pe4=s1+s2+s3;
     double sp=pe4/2;
     ar4=sqrt(sp * (sp - s1) * (sp - s2) * (sp - s3));
-    printf("The area and perimeter of the circle are : %.2lf & %.2lf \n",ar4,pe4);
+    printf("The area and perimeter of the triangle are : %.2lf & %.2lf \n",ar4,pe4);
 
     return 0;
 }

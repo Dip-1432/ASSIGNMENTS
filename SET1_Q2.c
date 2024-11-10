@@ -20,18 +20,24 @@ int main()
         max=a;
         if(b>=c)
             min=c;
+        else 
+            min=b;
     }
     else if (b>c && b>a)
     {
         max=b;
         if(c>=a)
             min=a;
+        else
+            min=c;
     }
     else 
     {
         max=c;
         if(a>=b)
             min=b;
+        else
+            min=a;
     }
 
     printf("Maximum: %.2lf\n",max);   // printing the maximum
