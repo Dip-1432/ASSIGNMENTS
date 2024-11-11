@@ -38,10 +38,7 @@
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.includePaths": [],
-  "C_Cpp_Runner.includeSearch": [
-    "*",
-    "**/*"
-  ],
+  "C_Cpp_Runner.includeSearch": ["*", "**/*"],
   "C_Cpp_Runner.excludeSearch": [
     "**/build",
     "**/build/**",
@@ -55,5 +52,26 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#635147",
+    "activityBar.background": "#635147",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#1b251e",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#635147",
+    "statusBar.background": "#453932",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#635147",
+    "statusBarItem.remoteBackground": "#453932",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#453932",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#45393299",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#453932",
+  "cSpell.words": ["PRAC", "upto"]
 }

@@ -3,17 +3,14 @@
 
 #include <stdio.h>
 int main() {
-   int n, sum = 0,term=0;
-   printf("Enter the value of n: ");
+   int n, sum = 0;
+   // int term=0;
+   printf("Enter the value of n:\t");
    scanf("%d", &n);
-
-   for (int i = 1; i <= n; i++) {
-      //   sum += i * (i + 1) / 2; // formula for sum of an arithmetic series(advanced)
-      term+=i;
-      sum += term; 
-   }
-
+   for (int i = 1; i <= n; i++) 
+        sum += i * (i + 1) / 2; // formula for sum of an arithmetic series(advanced)
+      // term+=i;
+      // sum += term; 
    printf("Sum of the series is: %d\n", sum);
-
    return 0;
 }

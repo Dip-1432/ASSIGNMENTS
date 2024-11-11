@@ -13,10 +13,10 @@ int lcm(int a, int b)
 }
 int main() 
 {
-   int num1, num2;
+   int a, b;
    printf("Enter two numbers: \n");
-   scanf("%d %d", &num1, &num2);
-   printf("GCD of %d and %d is %d\n", num1, num2, gcd(num1, num2));
-   printf("LCM of %d and %d is %d\n", num1, num2, lcm(num1, num2));
+   scanf("%d %d", &a, &b);
+   printf("GCD of %d and %d is %d\n", a, b, gcd(a, b));
+   printf("LCM of %d and %d is %d\n", a, b, lcm(a, b));
    return 0;
 }

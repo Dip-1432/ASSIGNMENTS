@@ -2,12 +2,11 @@
 
 #include <stdio.h>
 int main() {
-   int n;
-   printf("Enter a number: ");
+   int n,flag=0;
+   printf("Enter a number:\t");
    scanf("%d", &n);
-   int flag = 0;
    printf("%d ", n);
-   while (n > 0) {
+   while (n) {
       int r = n % 10;
       if (r == 0) {
          flag = 1;
@@ -15,10 +14,9 @@ int main() {
       }
       n /= 10;
    }
-   if (flag == 1) {
+   if (flag) 
       printf("is a Duck number.\n");
-   } else {
+   else 
       printf("is not a Duck number.\n");
-   }
    return 0;
 }

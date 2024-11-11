@@ -15,55 +15,43 @@ int main()
     {
         case 1:
             days=31;
-            printf("Total number of days is: %d\n", days);
             break;
         case 2:
             days=31+28;
-            printf("Total number of days is: %d\n", days);
             break;
         case 3:
             days=31+28+31;
-            printf("Total number of days is: %d\n", days);
             break;
         case 4:
             days=31+28+31+30;
-            printf("Total number of days is: %d\n", days);
             break;
         case 5:
             days=31+28+31+30+31;
-            printf("Total number of days is: %d\n", days);
             break;
         case 6:
             days=31+28+31+30+31+30;
-            printf("Total number of days is: %d\n", days);
             break;
         case 7:
             days=31+28+31+30+31+30+31;
-            printf("Total number of days is: %d\n", days);
             break;
         case 8:
             days=31+28+31+30+31+30+31+31;
-            printf("Total number of days is: %d\n", days);
             break;
         case 9:
             days=31+28+31+30+31+30+31+31+30;
-            printf("Total number of days is: %d\n", days);
             break;
         case 10:
             days=31+28+31+30+31+30+31+31+30+31;
-            printf("Total number of days is: %d\n", days);
             break;
         case 11:
             days=31+28+31+30+31+30+31+31+30+31+30;
-            printf("Total number of days is: %d\n", days);
             break; 
         case 12:
             days=31+28+31+30+31+30+31+31+30+31+30+31;
-            printf("Total number of days is: %d\n", days);
             break;
         default:
             printf("Invalid month!\n");      
     }
-
+    printf("Total number of days is: %d\n", days);
     return 0;
 }

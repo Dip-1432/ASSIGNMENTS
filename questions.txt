@@ -1,0 +1,118 @@
+File 1 (SET1_Q1.c):
+1. Wap in C that Will find the area and perimeter of
+Square,Rectangle,Circle,Triangle.
+
+File 2 (SET1_Q10.c):
+WAP in c to calculate simple interest and compound interest
+
+File 3 (SET1_Q11.c):
+WAP in c to take a number and check whether it is odd or even using bit-wise operator.
+
+File 4 (SET1_Q12.c):
+WAP in c to Compute the telephone bill for Mr. X as per the call rates given below:
+Rental = 250
+1st 100 calls @Rs. 0.2
+Next 100 calls @ Rs. 0.3
+Remaining calls @ Rs. 0.5
+
+File 5 (SET1_Q13.c):
+WAP in c to check whether a number is prime or not.
+
+File 6 (SET1_Q14.c):
+WAP in c to check whether a number is Armstrong (xyz=x^3+y^3+z^3) or not.
+
+File 7 (SET1_Q15.c):
+WAP in c to check whether a number is Peterson (xyz=x!+y!+z!) or not.
+
+File 8 (SET1_Q16.c):
+WAP in c to check whether a number is Duck (a positive integer that has at least one zero, but not if the zero is at the beginning of the number) or not.
+
+File 9 (SET1_Q17.c):
+WAP in c to calculate the sum of the series
+1 + 1/2 + 1/3 + 1/4 + 1/5 + 1/6 + 1/7 + 1/8 + 1/9 + ...... 1/n
+
+File 10 (SET1_Q18.c):
+WAP in c to calculate the sum of the series
+x - x^3/3! + x^5/5! - x^7/7! + x^9/9!........upto n terms.
+
+File 11 (SET1_Q19.c):
+WAP in c to calculate the sum of the series
+1+ (1+2) + (1+2+3) + (1+2+3+4) + (1+2+3+4+5) + ......upto n terms.
+
+File 12 (SET1_Q2.c):
+2. Wap in C that will take 3 numbers and find the maximum and minimum among them
+
+File 13 (SET1_Q20.c):
+WAP in c to print the following pattern.
+
+
+File 14 (SET1_Q21.c):
+WAP in c to print the following pattern.
+
+
+File 15 (SET1_Q22.c):
+WAP in c to print the following pattern.
+
+
+File 16 (SET1_Q23.c):
+WAP in c to print the following pattern.
+
+
+File 17 (SET1_Q24.c):
+WAP in c to check whether a number is palindrome or not,using functions.
+
+File 18 (SET1_Q25.c):
+WAP in c to find out all prime numbers within a given range, using functions.
+
+File 19 (SET1_Q26.c):
+WAP in c to find out all prime factors of a given number, using functions.
+
+File 20 (SET1_Q27.c):
+WAP in c to find out GCD and LCM of two numbers, using functions.
+
+File 21 (SET1_Q28.c):
+WAP in c to find the sum of odd and even numbers among n elements.
+
+File 22 (SET1_Q29.c):
+WAP in c to find the maximum and minimum among n elements.
+
+File 23 (SET1_Q3.c):
+3. Wap in C that will check if a given year is leap year or not.
+A leap year is exactly divisible by 4 except for century years (years ending with 00)
+The century year is a leap year only if it is perfectly divisible by 400.
+
+File 24 (SET1_Q30.c):
+WAP in c to perform addition of two matrices.
+
+File 25 (SET1_Q4.c):
+4. Wap in C that will take marks for 3 subjects and find the average and based on that print the grade.
+Average     Grade
+a. >=90     AA
+b. 80-89    A
+c. 60-79    B
+d. 40-59    C
+e. <40      D
+
+File 26 (SET1_Q5.c):
+5. Wap in C that will take the MRP of an item as input and based on the price
+range provide some discount and find out the ultimate selling price.
+MRP                    Discount
+i. 5000-9999           5%
+ii. 10000-19999        10%
+iii. 20000-39999       15%
+iv. 40000-49999        20%
+v. 50000 above         25%
+
+File 27 (SET1_Q6.c):
+6. Wap in C to check if a number is odd or even Using Ternary operator
+
+File 28 (SET1_Q7.c):
+7. Wap in C that will find the maximum and minimum among 3 numbers using the ternary operator
+
+File 29 (SET1_Q8.c):
+8. Wap in C that will implement a Menu driven program which will take 2 numbers and
+perform addition,subtraction,multiplication,division using switch case.
+
+File 30 (SET1_Q9.c):
+9. Wap in C that will take a month and find out total numbers of days till that given month
+using the switch case(considering the year is not leap year)

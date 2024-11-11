@@ -4,11 +4,11 @@
 int main()
 {
    float p, r, t, si, ci;
-   printf("Enter the principal amount: ");
+   printf("Enter the principal amount:\t");
    scanf("%f", &p);
-   printf("Enter the rate of interest: ");
+   printf("Enter the rate of interest:\t");
    scanf("%f", &r);
-   printf("Enter the time period: ");
+   printf("Enter the time period:\t");
    scanf("%f", &t);
    si = (p * r * t) / 100;
    ci = p * pow(1 + r / 100, t) - p;

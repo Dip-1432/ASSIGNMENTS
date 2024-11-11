@@ -3,7 +3,7 @@
 #include <stdio.h>
 int reverse(int num){
    int rev = 0, rem;
-   while (num != 0)
+   while (num)
    {
       rem = num % 10;
       rev = rev * 10 + rem;
@@ -13,16 +13,12 @@ int reverse(int num){
 }
 int main() {
    int num;
-   printf("Enter a number: ");
+   printf("Enter a number:\n");
    scanf("%d", &num);
    int rev = reverse(num);
    if (rev == num)
-   {
       printf("%d is a palindrome number.", num);
-   }
    else
-   {
       printf("%d is not a palindrome number.", num);
-   }
    return 0;
 }

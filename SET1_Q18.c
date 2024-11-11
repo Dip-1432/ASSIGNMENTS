@@ -4,17 +4,17 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
-   int n, x,fact,c=1 ;
-   float sum=0;
-   printf("Enter the value of n: ");
+   int n, x ;
+   printf("Enter the value of n:\t");
    scanf("%d", &n);
-   printf("Enter the value of x: ");
+   printf("Enter the value of x:\t");
    scanf("%d", &x);
+   int fact,c=1;
+   float sum=0;
    for (int i = 1; i < 2*n; i += 2) {
       fact = 1;
-      for (int j = 1; j <= i; j++) {
+      for (int j = 1; j <= i; j++) 
             fact *= j;
-      }
       sum += pow(x, i) / (fact*c);
       c *= -1;
    }

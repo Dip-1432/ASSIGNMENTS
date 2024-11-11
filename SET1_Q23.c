@@ -11,7 +11,7 @@
 #include<stdio.h>
 int main(){
    int n;
-   printf("Enter the number of rows: ");
+   printf("Enter the number of rows:\n");
    scanf("%d",&n);
    for(int i=1;i<n*2;i++){
       int limit =(i<=n)? i : (n*2-i);

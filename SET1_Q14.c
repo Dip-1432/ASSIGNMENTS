@@ -2,23 +2,19 @@
 
 #include <stdio.h>
 int main(){
-   int num, temp, sum = 0, original_num;
-   printf("Enter a number: ");
+   int num, r, sum = 0, o_num;
+   printf("Enter a number:\t");
    scanf("%d", &num);
-   original_num = num;
-   while (num > 0)
+   o_num = num;
+   while (num)
    {
-      temp = num % 10;
-      sum += temp * temp * temp;
+      r = num % 10;
+      sum += r * r * r;
       num /= 10;
    }
-   if (sum == original_num)
-   {
-      printf("%d is an Armstrong number.", original_num);
-   }
+   if (sum == o_num)
+      printf("%d is an Armstrong number.", o_num);
    else
-   {
-      printf("%d is not an Armstrong number.", original_num);
-   }
+      printf("%d is not an Armstrong number.", o_num);
    return 0;
 }

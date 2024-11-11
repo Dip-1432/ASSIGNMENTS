@@ -3,16 +3,15 @@
 #include <stdio.h>
 int main(){
    int n, temp, flag = 0;
-   printf("Enter a number: ");
+   printf("Enter a number:\t");
    scanf("%d", &n);
    temp=n;
    int s=0;
-   while(n>0){
+   while(n){
       int r=n%10;
       int f=1;
-      for (int i=1;i<=r;i++){
+      for (int i=1;i<=r;i++)
          f=f*i;
-      }
       s+=f;
       n/=10;
    }

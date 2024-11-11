@@ -7,23 +7,16 @@
 #include <stdio.h>
 int main()
 {
+   float bill=0.0;
    int calls;
-   printf("Enter the number of calls: ");
+   printf("Enter the number of calls:\t");
    scanf("%d", &calls);
    if (calls <= 100)
-   {
-      float bill = calls * 0.2 + 250;
-      printf("Bill amount: %.2f\n", bill);
-   }
+      bill = calls * 0.2 + 250;
    else if (calls <= 200)
-   {
-      float bill = 100 * 0.2 + (calls - 100) * 0.3 + 250;
-      printf("Bill amount: %.2f\n", bill);
-   }
+      bill = 20 + (calls - 100) * 0.3 + 250;
    else
-   {
-      float bill = 100 * 0.2 + 100 * 0.3 + (calls - 200) * 0.5 + 250;
-      printf("Bill amount: %.2f\n", bill);
-   }
+      bill = 20 + 30 + (calls - 200) * 0.5 + 250;
+   printf("Bill amount: %.2f\n", bill);
    return 0;
 }
